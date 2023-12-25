@@ -1,0 +1,18 @@
+.landing-container {
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center; 
+    height: 100vh; 
+  }
+  
+  .registration-section,
+  .login-section {
+    width: 45%; 
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  

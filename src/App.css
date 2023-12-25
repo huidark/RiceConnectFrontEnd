@@ -1,0 +1,174 @@
+.navBar {
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px 20px;
+  background-color: #f8f8f8;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navBar a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+.navBar button {
+  margin-left: 10px;
+}
+
+/* Style the form container */
+form {
+  width: 100%;
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+/* Style the paragraph (label) */
+form p {
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* Style the input fields */
+form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Change appearance on focus */
+form input:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 4px rgba(0, 123, 255, 0.5);
+}
+
+/* Style for the button */
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Profile page:*/
+.profile-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  height: 100vh;
+}
+.user-info {
+  width: 45%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f8f8f8;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.user-form {
+  width: 45%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f8f8f8;
+  margin-top: 80px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Main page:*/
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+  overflow-y: auto;
+  padding: 1rem;
+}
+
+.following-list {
+  width: 20%;
+  padding: 1rem;
+  margin-top: 20px;
+}
+
+/* UserProfile Styles */
+div > .main-container > .user-profile {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20%;
+  padding: 1rem;
+}
+
+.user-profile img {
+  max-width: 100%;
+}
+
+/* NewArticleForm & Article Styles */
+.new-article-form,
+.article {
+  margin: 1rem 0;
+}
+
+.new-article-form textarea,
+.article textarea,
+input[type="text"] {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+/* Search Bar Styles */
+.search-bar input[type="text"] {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+/* Responsive Layout for smaller screens */
+@media (max-width: 768px) {
+  .main-content,
+  .following-list,
+  div > .main-container > .user-profile {
+    width: 100%;
+  }
+}
+
+/* Show comments section */
+.comments-section button {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.input-field {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
